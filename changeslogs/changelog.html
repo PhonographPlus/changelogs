@@ -5,6 +5,36 @@
 
 <p>Translate Phonograph Plus into your language -> <a href="https://crowdin.com/project/phonograph-plus">crowdin</a></p>
 
+<h4><b>0.6.0</b> 2023.03.08</h4>
+<div>
+    <ol>
+        <li>Add: Flatten Folder Page</li>
+        <li>Add: brand-new music tag editors (including Single Edit and Batch Edit)</li>
+        <li>Add: support backup of Path Filter, Playing Queue, Favorites Songs which can be migrated crossing different devices (as long as song locations unchanged)</li>
+        <li>Remove: legacy music tag editors</li>
+        <li>Improve: allow multi tag editing for the multi-selected and artist</li>
+        <li>Improve: order of Tab pages</li>
+        <li>Improve: playlists save and delete </li>
+        <li>Modify: the exported setting json format (WARNING: Incompatible with previous versions)</li>
+        <li>Modify: force reboot app after clearing all settings</li>
+        <li>Modify: forbid upgrading from old versions (versions before v0.2.4-RC1)</li>
+        <li>Fix: glitch of interactions in Image Source Config</li>
+        <li>Fix: crash while clearing all settings</li>
+        <li>Fix: crash after importing backups of setting</li>
+        <li>Translation: update Italian (by gdonisi)</li>
+        <li>Development: store player state in separate preference file</li>
+        <li>Development: cleanup code, refactor project structure</li>
+        <li>Development: upgrade AGP to 7.4.1, kotlin to 1.8.10 and other dependencies</li>
+    </ol>
+</div>
+
+<h4><b>0.5.4.1</b> 2023.1.30</h4>
+<div>
+    <ol>
+        <li>Fix: report the error NoSuchMethodException: ba.r</li>
+    </ol>
+</div>
+
 <h4><b>0.5.4</b> 2023.1.26</h4>
 <div>
     <ol>
@@ -38,7 +68,9 @@
 <h4><b>0.5.1</b> 2022.12.31</h4>
 <div>
     <ol>
-        <li>Translation: updated Italian (by gdonisi &amp; Andrea Enzo Lattmann), German (by worldtest), Polish (by Robert Biś)</li>
+        <li>Translation: updated Italian (by gdonisi &amp; Andrea Enzo Lattmann), German (by worldtest), Polish (by
+            Robert Biś)
+        </li>
         <li>Improve: permission grant</li>
         <li>Improve: try to avoid crashes due to main player animations</li>
     </ol>
@@ -47,14 +79,27 @@
 <h4><b>0.5.0</b> 2022.11.27</h4>
 <div>
     <ol>
-        <li>Fix: on large tablets, the number of list columns cannot be adjusted and locked to 6 columns when the screen is landscaped </li>
+        <li>Fix: on large tablets, the number of list columns cannot be adjusted and locked to 6 columns when the screen
+            is landscaped
+        </li>
         <li>Fix: low contrast color of the text and icon on Search Page if using a light primary color</li>
         <li>Fix: some color glitch</li>
-        <li>New: playing queue snapshot: track the current queue, record and save when playing queue is entirety replaced (keep till app rebooted), only store recent changes, to recovery queues, goto player menu (playing queue history)</li>
-        <li>New: custom click-behavior: allow custom click-behavior for song items or file items in list: There are 8 modes and 2 extra behaviors allowing defining what player should do when clicking item in a list.</li>
-        <li>Remove: the option &quot;Remember Shuffle&quot; (It's a very vague option, causing conflict with some intended playing actions and custom click-behavior)</li>
-        <li>Remove: the option &quot;Keep the playing queue intact&quot; (It's useless now since queue snapshot and custom click-behavior were added)</li>
-        <li>New: a confirm dialog when playing from outside (like open from file explorer): The options are similar to custom click-behavior.</li>
+        <li>New: playing queue snapshot: track the current queue, record and save when playing queue is entirety
+            replaced (keep till app rebooted), only store recent changes, to recovery queues, goto player menu (playing
+            queue history)
+        </li>
+        <li>New: custom click-behavior: allow custom click-behavior for song items or file items in list: There are 8
+            modes and 2 extra behaviors allowing defining what player should do when clicking item in a list.
+        </li>
+        <li>Remove: the option &quot;Remember Shuffle&quot; (It's a very vague option, causing conflict with some
+            intended playing actions and custom click-behavior)
+        </li>
+        <li>Remove: the option &quot;Keep the playing queue intact&quot; (It's useless now since queue snapshot and
+            custom click-behavior were added)
+        </li>
+        <li>New: a confirm dialog when playing from outside (like open from file explorer): The options are similar to
+            custom click-behavior.
+        </li>
         <li>Fix: playing from shortcut won't work</li>
         <li>Optimise: lyrics fetching and loading performance</li>
         <li>Translation: updated Russian (by ElinaAndreeva)</li>
